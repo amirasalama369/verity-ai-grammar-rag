@@ -12,8 +12,10 @@ venv/
 # Generated pipeline artifacts (created by running the pipeline, not committed)
 data/raw/*.json
 data/processed/*.json
-chroma_db/*
-!chroma_db/.gitkeep
+
+# ChromaDB vector store
+!chroma_db/
+!chroma_db/**
 
 # OS / editor noise
 .DS_Store
